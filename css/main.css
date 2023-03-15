@@ -67,7 +67,7 @@ main figure img{
 
     margin: 6%;
     cursor: pointer;
-    border: 1px  aqua solid;
+    border: 1px  red solid;
     transition: 0.2s ease-in-out;
 }
 main figure img:hover {
