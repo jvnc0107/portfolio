@@ -41,7 +41,7 @@ main .techs .cards-container .card{
     width: 99px;
     height: 106px;
     padding: 10px;
-    background-color: #eee;
+    background-color:rgb(150, 137, 137) ;
     border-radius: 8px;
     margin-right: 0.9em;
     margin-left: 0.9em;
@@ -59,7 +59,7 @@ main .techs .cards-container .card .img {
 }
 main .techs .cards-container .card:hover{
  
-    box-shadow: 0px 0px 8px aqua;
+    box-shadow: 0px 0px 8px rgb(55, 121, 121);
     
 }
 
@@ -84,6 +84,6 @@ main figure img{
     transition: 0.2s ease-in-out;
 }
 main figure img:hover {
-box-shadow: 0px 0px 6px aqua;
+box-shadow: 0px 0px 6px rgb(55, 121, 121);
 }
-  
+

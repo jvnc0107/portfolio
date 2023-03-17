@@ -1,5 +1,5 @@
 header{
-    background-color: #222;
+    background-color: #000000;
     padding: 15px;
     width: 100%;
     
@@ -29,10 +29,10 @@ header{
     }
 
     header h1, a{
-        color: aqua;
+        color: rgb(150, 137, 137);
         transition: 0.2s ease-in-out;
     }
 
     header h1:hover, a:hover{
-        color: #fff;
+        color: #4a645e;
     }

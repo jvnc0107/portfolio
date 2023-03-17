@@ -1,0 +1,8 @@
+footer  {
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: inset 0px 0px  4px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    color: rgb(150, 137, 137);
+    font-size: 1rem;
+    font-weight: 300; }
