@@ -1,32 +1,32 @@
 main {
     padding: 5%;
-    
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     line-height: 1.6;
-    
 }
+
 /* Main content */
 
-main .main-content{
+main .main-content {
     display: flex;
     flex-direction: column;
-    
 }
-main .main-content h2{
+
+main .main-content h2 {
     margin-bottom: 2%;
     font-size: 2.2em;
-    
 }
-main .main-content .text{
+
+main .main-content .text {
     margin-bottom: 10%;
 }
-main .main-content .text p{
+
+main .main-content .text p {
     width: 75%;
     font-size: 1.2em;
     font-weight: 300;
-    
 }
 
 /* cards */
@@ -34,14 +34,13 @@ main .main-content .text p{
 main .techs .cards-container {
     display: flex;
     align-items: center;
-    
-    
 }
-main .techs .cards-container .card{
+
+main .techs .cards-container .card {
     width: 99px;
     height: 106px;
     padding: 10px;
-    background-color:rgb(150, 137, 137) ;
+    background-color: rgb(150, 137, 137);
     border-radius: 8px;
     margin-right: 0.9em;
     margin-left: 0.9em;
@@ -53,37 +52,36 @@ main .techs .cards-container .card{
 
     transition: box-shadow 0.25s ease-in-out;
 }
+
 main .techs .cards-container .card .img {
     width: 80%;
-
 }
-main .techs .cards-container .card:hover{
- 
+
+main .techs .cards-container .card:hover {
     box-shadow: 0px 0px 8px rgb(55, 121, 121);
-    
 }
 
 /* figure */
 
-main figure{
+main figure {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     justify-content: center;
-    
 }
-main figure img{
-    width: 350px;
-    height: 350px;
-    border-radius: 175px;
-    
+
+main figure img {
+    width: 340px;
+    height: 340px;
+    border-radius: 195px;
+
 
     margin: 6%;
     cursor: pointer;
-    border: 1px whitesmoke solid;
+    border: 1px rgb(150, 137, 137);
     transition: 0.2s ease-in-out;
 }
-main figure img:hover {
-box-shadow: 0px 0px 6px rgb(55, 121, 121);
-}
 
+main figure img:hover {
+    box-shadow: 0px 0px 6px rgb(55, 121, 121);
+}

@@ -1,4 +1,4 @@
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
     main {
         width: 100%;
 
@@ -6,26 +6,32 @@
         align-items: center;
         justify-content: center;
     }
+
     .main-content {
         width: 100%;
         align-items: center;
 
         margin-bottom: 15%;
     }
-    main .main-content .text, .techs {
+
+    main .main-content .text,
+    .techs {
         text-align: center;
     }
+
     main .main-content .text p {
         width: 100%;
         font-size: 0.9em;
-        
+
     }
-    main .techs .cards-conteiner, .main-content .text p {
-        margin-top: 32px    ;
+
+    main .techs .cards-conteiner,
+    .main-content .text p {
+        margin-top: 32px;
     }
 }
 
-@media (max-width: 700px){
+@media (max-width: 700px) {
     header {
         flex-direction: column;
         align-items: center;
@@ -33,29 +39,37 @@
 
         text-align: center;
     }
+
     header h1 {
         font-size: 2em;
-}
-     header nav {
+    }
+
+    header nav {
         margin-top: 24px;
-     }
-     header nav a {
+    }
+
+    header nav a {
         font-size: 1em;
-     }
-    main .techs .cards-conteiner .card{
+    }
+
+    main .techs .cards-conteiner .card {
         width: 60px;
         height: 60px;
     }
-     main .main-content .text h2, .main-content .text h2 {
+
+    main .main-content .text h2,
+    .main-content .text h2 {
         font-size: 1.8em;
-     }
-     main figure img {
+    }
+
+    main figure img {
         width: 250px;
         height: 250px;
-     }
-    
+    }
+
 }
-@media (max-width: 1200px){
+
+@media (max-width: 1200px) {
     footer {
         flex-direction: column;
         align-items: center;
@@ -65,12 +79,13 @@
         text-align: center;
     }
 }
-@media (max-width: 700px){
+
+@media (max-width: 700px) {
     footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
+
 
         text-align: center;
     }
