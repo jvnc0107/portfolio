@@ -88,7 +88,7 @@ main .techs .cards-container .card:hover {
 
 
 /* figure */
-/* 
+
 main figure {
     display: flex;
     flex-direction: column;
@@ -110,4 +110,4 @@ main figure img {
 
 main figure img:hover {
     box-shadow: 0px 0px 6px rgb(55, 121, 121);
-} */
+}
